@@ -1,5 +1,5 @@
 ecschema.a: fe8b8a544f1f6f06f61834224185163c
 ecutil.a: 59bd34fce30be6b28a9be49bcf889d9c
 eccore.a: db145e2d53a74e3fdf8469d75ad56651
-ecconf.a: ac3792b4aedc943511e27e108900ed82
+ecconf.a: d2c4669cfe980e79329c72eaa59c6873
 ecapi.a: 27a2ee12a4746ec41c9df0edcfc117e6
