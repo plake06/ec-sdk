@@ -18,7 +18,7 @@ The Enterprise-Connect SDK. [Visit the wiki to get familiar with EC](https://git
 - Linux 32/64.
 - Mac OS X (Darwin)
 
-###Load Balancing (Optional)
+### Load Balancing (Optional)
 - [Cloud Foundry Diego Cell](https://docs.cloudfoundry.org/concepts/diego/diego-architecture.html)
 
 ## Download
