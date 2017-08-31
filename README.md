@@ -7,19 +7,19 @@ The Enterprise-Connect SDK. [Visit the wiki to get familiar with EC](https://git
 
 ## System Requirement
 ### Hardware
-*7Mb system storage memory
-*32Mb DRAM.
+- 7Mb system storage memory
+- 32Mb DRAM.
 
 ### Instruction/OS
-*ARM32/64.(Raspian, Symbian)
-*Windows 32/64
-*Android.
-*iOS.
-*Linux 32/64.
-*Mac OS X (Darwin)
+- ARM32/64.(Raspian, Symbian)
+-  Windows 32/64
+- Android.
+- iOS.
+- Linux 32/64.
+- Mac OS X (Darwin)
 
 ###Load Balancer (Optional for Application Scaling)
-*Cloud Foundry Diego Cell
+- Cloud Foundry Diego Cell
 
 ## Download
 ```bash
