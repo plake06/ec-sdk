@@ -1,0 +1,18 @@
+ec-plugin:
+ tls:
+ - status: active
+   schema: https
+   hostname: www.flowdock.com
+   tlsport: "443"
+   proxy: ""
+   port: "8995"
+   command: ./tls -v
+ ip-route:
+ - status: Inactive
+   schema: https
+   hostname: github.build.ge.com
+   tlsport: 443
+   proxy: http://proxy-src.research.ge.com:8080
+   port: 8995
+   iprange: CidrNET Address
+   command: ./ip-route
