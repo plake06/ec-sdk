@@ -2,5 +2,5 @@ ecschema.a: 6335398c768cccc21eda1d6c22c498f09eab3cdfbbe1edc6f1f59f3718e026d2 (sh
 ecutil.a: c060b6e47c10c49cfbb2a4f27c1509d188f23528dd8ddfe39675caa3f15cce4b (sha256) 
 ecplugin.a: 4daa8e5a5bc43cd15c7eef865253a42d2a0e520b10e6ffeecbbb0ef11f551f5a (sha256) 
 eccore.a: e660a14a1da1eac6883a1d74604d95ce9d544903a69ca2abbf77a8fad05e013c (sha256) 
-ecconf.a: f245bdc91f0a261a6eda5f1fbba56e570ff7670b972f87b0ca494852fa9aea48 (sha256) 
+ecconf.a: 0ed88b5133b74e6d82e5d95fff2eb00e7b6a4eb11b793ef9f2efb8701fb6e31b (sha256) 
 ecapi.a: cc4029120a0928877968e1df0678092ddcc81323fbdb5e7beb4cbeeaa361b836 (sha256) 
