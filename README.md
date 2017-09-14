@@ -56,6 +56,9 @@ b3bf9cd9686e (find the checksum in the checksum.txt)
 ```bash
  $ brew install ecagent
  ```
+## Usage Example
+- [Internal Users](https://github.build.ge.com/Enterprise-Connect/ec-agent-evolution)
+- [Extenal Users, Pending for repo push]
 
 ## Contribution
 The SDK examples were created in the open-source form with the vision of a greater private cloud and at the same time, making computer network more secure. The EC team recognises every indiviual's contribution and is actively looking for partners who share the same vision.
