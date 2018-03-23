@@ -19,6 +19,8 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
 ### Step one of three- Configure the plugins.yml
 Again assuming that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
+The following plugins.yml file requires to be presented in the same directory of the agent/plugin.
+
 ```yaml
   kepware:
     status: active
@@ -46,3 +48,10 @@ Again assuming that the user has the basic knowledge of Enterprise-Connect opera
         pxy: 'http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80'
 
 ```
+
+#### Ingress
+There are several types of protocols supported by this plugin. Currently it's pre-set to MQTT for the beta testing. Pay more attention on the tpc (Topic) configuration, this needs to match your topic which setup in the MQTT broker.
+
+#### Egress
+Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
+
