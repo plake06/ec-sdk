@@ -3,6 +3,8 @@
 ### Introduction
 The Kepware plugin is designed to benefit Enterprise-Connect Predix subscribers. It is capable of performing a realtime protocols-exchange for ingress protocols such as MQTT, WebSocket, HTTP, OPC UA/DA, TCP, and several high-performance egress frameworks, e.g. gRPC, supported by Predix EventHub service.
 
+This usage guide assumes that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix.
+
 ### High-Level Network-Comp. Deployment Diagram
 ![alt text](https://github.build.ge.com/Enterprise-Connect/ec-sdk/blob/beta/plugins/kepware/KepwareCBPlugin.png)
 
@@ -13,5 +15,7 @@ The combination of EC Agent and the plugin is less than 20MB. With the minimum r
 
 ### Enhanced Security
 The plugin performs data-exchange operations via the Enterprise-Connect security network which will maximise the security compatibility and deliver uncompromised performance.
+
+### Step one of three
 
 
