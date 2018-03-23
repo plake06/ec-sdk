@@ -16,7 +16,28 @@ The combination of EC Agent and the plugin is less than 20MB. With the minimum r
 ### Enhanced Security
 The plugin performs data-exchange operations via the Enterprise-Connect security network which will maximise the security compatibility and deliver uncompromised performance.
 
-### Step one of Four- Configure the plugins.yml
+### Step one of tree- Setup the agent for the Ingress traffic
+Please verefy your network environment to decide whether the pxy (Proxy) makes sense for your agent deployment.
+
+```bash
+c:\> windows_var.exe -mod server \
+       -aid <agent Id A> \
+       -hst wss://example-gateway.run.ice.predix.io/agent \
+       -rht 10.10.10.10 \
+       -rpt 1883 \
+       -cid <client id> \
+       -csc <client secret> \
+       -oa2 https://<you UAA uri>/oauth/token \
+       -dur 300 \
+       -dbg \
+       -hca 7990 \
+       -shc \
+       -zon <your service zone id> \
+       -sst <EC service uri> \
+       -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+```
+
+### Step two of three- Configure the plugins.yml
 Again assuming that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
 The following plugins.yml file requires to be presented in the same directory of the agent/plugin.
@@ -55,29 +76,9 @@ There are several types of protocols supported by this plugin. Currently it's pr
 #### Egress
 Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
 
-### Step two of Four- Setup the agent for the Ingress traffic
-Please verefy your network environment to decide whether the pxy (Proxy) makes sense for your agent deployment.
 
-```bash
-c:\> windows_var.exe -mod server \
-       -aid <agent Id A> \
-       -hst wss://example-gateway.run.ice.predix.io/agent \
-       -rht 10.10.10.10 \
-       -rpt 1883 \
-       -cid <client id> \
-       -csc <client secret> \
-       -oa2 https://<you UAA uri>/oauth/token \
-       -dur 300 \
-       -dbg \
-       -hca 7990 \
-       -shc \
-       -zon <your service zone id> \
-       -sst <EC service uri> \
-       -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
 
-```
-
-### Step three of Four- Setup the agent for the Egress traffic
+### Step three of three - launch the agent and the plugin for the Egress traffic
 ```bash
 c:\> windows_var.exe -mod client \
         -aid <agent Id B> \
@@ -90,6 +91,8 @@ c:\> windows_var.exe -mod client \
         -shc \
         -dur 300 \
         -dbg \
-        -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
-
+        -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80 \
+        -plg
 ```
+
+
