@@ -55,10 +55,12 @@ There are several types of protocols supported by this plugin. Currently it's pr
 #### Egress
 Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
 
-### Step two of Four- Setup the agent for the Egress traffic
+### Step two of Four- Setup the agent for the Ingress traffic
+Please verefy your network environment to decide whether the pxy (Proxy) makes sense for your agent deployment.
+
 ```bash
 c:\> windows_var.exe -mod server \
-       -aid <agent Id> \
+       -aid <agent Id A> \
        -hst wss://example-gateway.run.ice.predix.io/agent \
        -rht 10.10.10.10 \
        -rpt 1883 \
@@ -72,5 +74,22 @@ c:\> windows_var.exe -mod server \
        -zon <your service zone id> \
        -sst <EC service uri> \
        -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+
+```
+
+### Step three of Four- Setup the agent for the Egress traffic
+```bash
+c:\> windows_var.exe -mod client \
+        -aid <agent Id B> \
+        -hst wss://example-gateway.run.ice.predix.io/agent \
+        -lpt 7883 \
+        -tid <agent Id A> \
+        -oa2 https://<your UAA>/oauth/token \
+        -cid <client_id> \
+        -csc <client secret> \
+        -shc \
+        -dur 300 \
+        -dbg \
+        -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
 
 ```
