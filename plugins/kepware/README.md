@@ -5,3 +5,5 @@ The Kepware plugin is designed for Enterprise-Connect Predix subscribers, and is
 
 ### High-Level Network-Comp. Deployment Diagram
 ![alt text](https://github.build.ge.com/Enterprise-Connect/ec-sdk/blob/beta/plugins/kepware/KepwareCBPlugin.png)
+
+### Simplifying Deployment
