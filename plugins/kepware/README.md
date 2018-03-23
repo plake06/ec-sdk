@@ -19,7 +19,30 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
 ### Step one of three- Configure the plugins.yml
 Again assuming that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
-```
-c:\>_windows_var.exe -mod server -aid qoJG4E -hst wss://ec-int-test-gateway.run.aws-usw02-dev.ice.predix.io/agent -rht 3.34.2.70 -rpt 1883 -cid chia -csc chia -oa2 https://aebdf553-6d3e-4c14-9d7a-85891e1ff2db.predix-uaa.run.aws-usw02-dev.ice.predix.io/oauth/token -dur 300 -dbg -hca 7990 -shc -zon e27fc834-28be-4851-9d6a-b7033d568270 -sst https://e27fc834-28be-4851-9d6a-b7033d568270.run.aws-usw02-dev.ice.predix.io -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80
+```yaml
+  kepware:
+    status: active
+    command: ./main
+    in:
+      type: mqtt
+      config:
+        cid: data-ingestion
+        usr: <usr>
+        pwd: <pwd>
+        hst: localhost
+        prt: 7883
+        tpc: opcData/vacuum
+    out:
+      type: proto-px
+      config:
+        sbj: clearwater
+        ptc: grpc
+        uri: 'event-hub-aws-usw02.data-services.predix.io:443'
+        px-header: 'Predix-Zone-Id'
+        px-zone: <zone>
+        cid: <cid>
+        csc: <csc>
+        oauth: 'https://<zone>.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token'
+        pxy: 'http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80'
 
 ```
