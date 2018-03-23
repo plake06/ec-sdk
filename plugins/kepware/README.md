@@ -7,4 +7,4 @@ The Kepware plugin is designed to benefit Enterprise-Connect Predix subscribers.
 ![alt text](https://github.build.ge.com/Enterprise-Connect/ec-sdk/blob/beta/plugins/kepware/KepwareCBPlugin.png)
 
 ### Simplifying Deployment
-The plugin can operate as standalone app (please reach out to the user group for more details ec-usergroup@ge-developer-cloud.flowdock.com) . Howevr in most industrial use cases, you would need Enterprise-Connect agent/service to establish the secure tunnel for many data-ingestion purposes.
+The plugin may operate as a standalone app, please reach out to the user group for more details ec-usergroup@ge-developer-cloud.flowdock.com. In most industrial use cases, the Enterprise-Connect agent/service is needed to establish the secure tunnel for many data-ingestion purposes.
