@@ -23,7 +23,7 @@ This usage guide assumes that the user has the basic knowledge of Enterprise-Con
 
 ### High-Level Network-Comp. Deployment Diagram
 Avaialbe also in [the original format](https://www.lucidchart.com/invitations/accept/38742699-09fe-4f68-ada9-dbb82fa1efd0)
-![alt text](https://github.build.ge.com/Enterprise-Connect/ec-sdk/blob/beta/plugins/kepware/KepwareCBPlugin.png)
+![alt text](KepwareCBPlugin.png)
 
 ### Simplifying Deployment
 The plugin may operate as a standalone app, please reach out to the user group for more details ec-usergroup@ge-developer-cloud.flowdock.com. However, in most industrial use cases, the Enterprise-Connect agent/service is needed to establish a secure tunnel for data-ingestion purposes.
