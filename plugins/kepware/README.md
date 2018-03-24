@@ -40,7 +40,7 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
  - Predix EventHub
 ### Plugin Compatibility Table
 
- | Beta | Dist
+--- | Beta | Dist
 --- | --- | --- 
 Service | 1 | 2
 Agent | 1 | 2
