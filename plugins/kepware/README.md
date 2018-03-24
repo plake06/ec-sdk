@@ -45,7 +45,7 @@ The following plugins.yml file requires to be presented in the same directory of
 ```yaml
   kepware:
     status: active
-    command: ./main
+    command: ./main -dbg
     in:
       type: mqtt
       config:
@@ -76,6 +76,13 @@ There are several types of protocols supported by this plugin. Currently it's pr
 #### Egress
 Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
 
+#### Logging
+It is important to know that the Kepware plugin support the file-level logging. Once your agent successfully launches the plugin as a sub-process, you will be able to see the history of logs produced inside the sub-process. The log file (.connectivity.log) will be saved in the root directory of your agent/plugin.
+
+You may tail the log following the simple command below-
+```bash
+:<agent/plugin directory>$ tail -f .connectivity
+```
 
 ### Step three of three - launch the agent and the plugin for the Egress traffic
 ```bash
@@ -93,11 +100,10 @@ c:\> windows_var.exe -mod client \
         -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80 \
         -plg
 ```
-The -plg (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the step one.
+The -plg (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the previous step.
 
 At this stage you should be seeing your data streaming overhelmingly by subscribing to your Predix Eventhub instance. If not, you may again join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or the contact/contributor list below for the usage 
 
-### More Tips
 
 the Data-Ingestion team led by Kenneth Shum<kenneth.shum@ge.com>, Chris Rutherford<Chris.Rutherford@ge.com>, Supply-Chain Leader Nate Arnold<nathaniel.arnold@ge.com>
 
