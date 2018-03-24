@@ -95,5 +95,12 @@ c:\> windows_var.exe -mod client \
 ```
 The -plg (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the step one.
 
+At this stage you should be seeing your data streaming overhelmingly by subscribing to your Predix Eventhub instance. If not, you may again join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or the contact/contributor list below for the usage 
+
+### More Tips
+
+the Data-Ingestion team led by Kenneth Shum<kenneth.shum@ge.com>, Chris Rutherford<Chris.Rutherford@ge.com>, Supply-Chain Leader Nate Arnold<nathaniel.arnold@ge.com>
+
+For Thread-Connect PxEventHub team, please contact Vandan Juvekar<Vandan.Juvekar@ge.com>, Abdullah Munaz<abdullah.munaz@ge.com>, Mahesh Venukadasula<mahesh.venukadasula@ge.com>
 
 
