@@ -1,6 +1,6 @@
 # Kepware Plugin Usage
 
-### Introduction
+## Introduction
 The Kepware plugin is designed to benefit Enterprise-Connect Predix subscribers. It is capable of performing a realtime protocols-exchange for ingress protocols such as MQTT, WebSocket, HTTP, OPC UA/DA, TCP, and several high-performance egress frameworks, e.g. gRPC, supported by Predix EventHub service.
 
 This usage guide assumes that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
@@ -16,10 +16,17 @@ The combination of EC Agent and the plugin is less than 20MB. With the minimum r
 ### Enhanced Security
 The plugin performs data-exchange operations via the Enterprise-Connect security network which will maximise the security compatibility and deliver uncompromised performance.
 
+## Usage Manual
+### Requirement
+ - Enterprise-Conn SDK
+ - Enterprise-Conn Service w/ Predix
+ - Kepware and/or any brokers supporting MQTT protocols.
+ - Predix EventHub
+
 ### Step one of tree- Setup the agent for the Ingress traffic
 Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
-Please verefy your network environment in order to decide whether the pxy (Proxy) makes sense for your agent deployment.
+Please verefy your network environment in order to decide whether the ```pxy``` (Proxy) makes sense for your agent deployment.
 
 ```bash
 c:\> windows_var.exe -mod server \
@@ -71,7 +78,7 @@ The following plugins.yml file requires to be presented in the same directory of
 ```
 
 #### Ingress
-There are several types of protocols supported by this plugin. Currently it's pre-set to MQTT for the beta testing. Pay more attention on the tpc (Topic) configuration, this needs to match your topic which setup in the MQTT broker.
+There are several types of protocols supported by this plugin. Currently it's pre-set to MQTT for the beta testing. Pay more attention on the ```tpc``` (Topic) configuration, this needs to match your topic which setup in the MQTT broker.
 
 #### Egress
 Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
@@ -100,9 +107,15 @@ c:\> windows_var.exe -mod client \
         -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80 \
         -plg
 ```
-The -plg (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the previous step.
+The ```-plg``` (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the previous step.
 
-At this stage you should be seeing your data streaming overhelmingly by subscribing to your Predix Eventhub instance. If not, you may again join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or the contact/contributor list below for the usage 
+At this stage you should be seeing your data streaming overhelmingly by subscribing to your Predix Eventhub instance. If not, you may join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or contact the one of the contributors from the list below for enabling. 
+
+## Live Demo/Data
+The GE Power Clearwater Plant team plays the key role to this successful Data-Ingestion initiative. Their contributions ranging from the network architecture, machine-configuration, to my first onsite tour in a GE Power facility one like this plant, in Clearwater, FL.
+
+There're currently two MQTT topics which are running 24/7, and are dedicated by an onprem Kepware system. For those of you are interested in giving the data-streaming a shot, you may use the following 
+
 
 
 the Data-Ingestion team led by Kenneth Shum<kenneth.shum@ge.com>, Chris Rutherford<Chris.Rutherford@ge.com>, Supply-Chain Leader Nate Arnold<nathaniel.arnold@ge.com>
