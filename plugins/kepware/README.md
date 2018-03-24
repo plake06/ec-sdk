@@ -149,6 +149,6 @@ ec-plugin:
  - Data-Ingestion team: *Kenneth Shum* <kenneth.shum@ge.com>, *Chris Rutherford* <Chris.Rutherford@ge.com> *Glorius Gaduang* <Glorius.Gaduang@ge.com>
  - Supply-Chain Leader: *Nate Arnold* <nathaniel.arnold@ge.com>
  - Thread-Connect PxEventHub team: *Vandan Juvekar* <Vandan.Juvekar@ge.com>, *Abdullah Munaz* <abdullah.munaz@ge.com>, *Mahesh Venukadasula* <mahesh.venukadasula@ge.com>
- - Arthour/Developer: *Chia Chang* <chia.chang@ge.com>
+ - Authour/Developer: *Chia Chang* <chia.chang@ge.com>
 
 
