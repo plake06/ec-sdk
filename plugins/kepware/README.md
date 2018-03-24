@@ -17,14 +17,16 @@ The combination of EC Agent and the plugin is less than 20MB. With the minimum r
 The plugin performs data-exchange operations via the Enterprise-Connect security network which will maximise the security compatibility and deliver uncompromised performance.
 
 ### Step one of tree- Setup the agent for the Ingress traffic
-Please verefy your network environment to decide whether the pxy (Proxy) makes sense for your agent deployment.
+Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
+
+Please verefy your network environment in order to decide whether the pxy (Proxy) makes sense for your agent deployment.
 
 ```bash
 c:\> windows_var.exe -mod server \
        -aid <agent Id A> \
        -hst wss://example-gateway.run.ice.predix.io/agent \
-       -rht 10.10.10.10 \
-       -rpt 1883 \
+       -rht <Kepware MQTT Broker IP> \
+       -rpt <Kepware MQTT Broker Port> \
        -cid <client id> \
        -csc <client secret> \
        -oa2 https://<you UAA uri>/oauth/token \
@@ -38,9 +40,7 @@ c:\> windows_var.exe -mod server \
 ```
 
 ### Step two of three- Configure the plugins.yml
-Again assuming that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
-
-The following plugins.yml file requires to be presented in the same directory of the agent/plugin.
+The following plugins.yml file requires to be presented in the same directory of the agent/plugin by the time of executing the agent/plugin.
 
 ```yaml
   kepware:
@@ -77,7 +77,6 @@ There are several types of protocols supported by this plugin. Currently it's pr
 Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
 
 
-
 ### Step three of three - launch the agent and the plugin for the Egress traffic
 ```bash
 c:\> windows_var.exe -mod client \
@@ -94,5 +93,7 @@ c:\> windows_var.exe -mod client \
         -pxy http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80 \
         -plg
 ```
+The -plg (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the step one.
+
 
 
