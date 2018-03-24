@@ -114,8 +114,35 @@ At this stage you should be seeing your data streaming overhelmingly by subscrib
 ## Live Demo/Data
 The GE Power Clearwater Plant team plays the key role to this successful Data-Ingestion initiative. Their contributions ranging from the network architecture, machine-configuration, to my first onsite tour in a GE Power facility one like this plant, in Clearwater, FL.
 
-There're currently two MQTT topics which are running 24/7, and are dedicated by an onprem Kepware system. For those of you are interested in giving the data-streaming a shot, you may use the following 
+There're currently two MQTT topics which are running 24/7, and dedicated by an onprem Kepware system in the onsite facility. For those of you currently subscribing to the PxEventHub, and are interested in giving the data-streaming a shot, please use the following credential setting in your plugins.yml file.
 
+```yaml
+ec-plugin:
+  kepware:
+    status: active
+    command: ./main -dbg
+    in:
+      type: mqtt 
+      config:
+        cid: data-ingestion
+        usr: wind
+        pwd: '!Wind12345'
+        hst: localhost
+        prt: 7883
+        tpc: opcData/vacuum
+    out:
+      type: proto-px
+      config:
+        sbj: clearwater
+        ptc: grpc
+        uri: 'event-hub-aws-usw02.data-services.predix.io:443'
+        px-header: 'Predix-Zone-Id'
+        px-zone: <zone>
+        cid: <cid>
+        csc: <csc>
+        oauth: 'https://<zone>.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token'
+        pxy: 'http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80'
+```
 
 
 the Data-Ingestion team led by Kenneth Shum<kenneth.shum@ge.com>, Chris Rutherford<Chris.Rutherford@ge.com>, Supply-Chain Leader Nate Arnold<nathaniel.arnold@ge.com>
