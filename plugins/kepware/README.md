@@ -6,6 +6,7 @@
   * [Enhanced Security](#enhanced-security)
 * [Usage Manual](#usage-manual)
   * [Requirement](#requirement)
+  * [Plugin Compatibility Table](#plugin-compatibility-table)
   * [Step one of tree- Setup the agent for the Ingress traffic](#step-one-of-tree--setup-the-agent-for-the-ingress-traffic)
   * [Step two of three- Configure the plugins.yml](#step-two-of-three--configure-the-pluginsyml)
     * [Ingress](#ingress)
@@ -38,6 +39,7 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
  - Enterprise-Conn Service w/ Predix
  - Kepware and/or any brokers supporting MQTT protocols.
  - Predix EventHub
+ 
 ### Plugin Compatibility Table
 
 --- | Beta | Dist
