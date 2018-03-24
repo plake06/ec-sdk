@@ -6,6 +6,7 @@ The Kepware plugin is designed to benefit Enterprise-Connect Predix subscribers.
 This usage guide assumes that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
 ### High-Level Network-Comp. Deployment Diagram
+Avaialbe also in [the original format](https://www.lucidchart.com/invitations/accept/38742699-09fe-4f68-ada9-dbb82fa1efd0)
 ![alt text](https://github.build.ge.com/Enterprise-Connect/ec-sdk/blob/beta/plugins/kepware/KepwareCBPlugin.png)
 
 ### Simplifying Deployment
@@ -26,7 +27,7 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
 ### Step one of tree- Setup the agent for the Ingress traffic
 Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
-Please verefy your network environment in order to decide whether the ```pxy``` (Proxy) makes sense for your agent deployment.
+Please verify your network environment in order to decide whether the ```pxy``` (Proxy) makes sense for your agent deployment.
 
 ```bash
 c:\> windows_var.exe -mod server \
