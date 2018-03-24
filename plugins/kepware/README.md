@@ -1,5 +1,20 @@
 # Kepware Plugin Usage
 
+* [Introduction](#introduction) 
+  * [High-Level Network-Comp. Deployment Diagram](#high-level-network-comp-deployment-diagram)
+  * [Simplifying Deployment](#simplifying-deployment)
+  * [Enhanced Security](#enhanced-security)
+* [Usage Manual](#usage-manual)
+  * [Requirement](#requirement)
+  * [Step one of tree- Setup the agent for the Ingress traffic](#step-one-of-tree--setup-the-agent-for-the-ingress-traffic)
+  * [Step two of three- Configure the plugins.yml](#step-two-of-three--configure-the-pluginsyml)
+    * [Ingress](#ingress)
+    * [Egress](#egress)
+    * [Logging](#logging)
+  * [Step three of three - launch the agent and the plugin for the Egress traffic](#step-three-of-three---launch-the-agent-and-the-plugin-for-the-egress-traffic)
+* [Live Demo/Data](#live-demodata)
+* [Project Contributors/Sponsors List](#project-contributorssponsors-list)
+
 ## Introduction
 The Kepware plugin is designed to benefit Enterprise-Connect Predix subscribers. It is capable of performing a realtime protocols-exchange for ingress protocols such as MQTT, WebSocket, HTTP, OPC UA/DA, TCP, and several high-performance egress frameworks, e.g. gRPC, supported by Predix EventHub service.
 
