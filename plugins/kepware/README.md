@@ -42,9 +42,9 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
 
 --- | Beta | Dist
 --- | --- | --- 
-Service | 1 | 2
-Agent | 1 | 2
-Kepware Plugin | 1 | 2
+Service | #1051+ | 2
+Agent | #1225+ | 2
+Plugin | v1 | 2
 
 ### Step one of tree- Setup the agent for the Ingress traffic
 Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
