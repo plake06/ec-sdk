@@ -42,8 +42,8 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
 
 --- | Beta | Dist
 --- | --- | --- 
-Service | #1051+ | 2
-Agent | #1225+ | 2
+Service | v1051+ | 2
+Agent | v1225+ | 2
 Plugin | v1 | 2
 
 ### Step one of tree- Setup the agent for the Ingress traffic
