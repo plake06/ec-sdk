@@ -137,9 +137,9 @@ The ```-plg``` (Plugin) flag here indicates that you would like the agent to lau
 At this stage you should be seeing your data streaming overhelmingly by subscribing to your Predix Eventhub instance. If not, you may join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or contact the one of the contributors from the list below for enabling. 
 
 ## Live Demo/Data
-The GE Power Clearwater Plant team plays the key role to this successful Data-Ingestion initiative. Their contributions ranging from the network architecture, machine-configuration, to my first onsite tour in a GE Power facility one like this plant, in Clearwater, FL.
+The GE Power Clearwater Plant team plays the key role to this successful Data-Ingestion initiative. Their contributions ranging from the network architecture, machine-configuration, to my first onsite tour in a GE Power facility one like this in Clearwater, FL.
 
-There are currently two MQTT topics which are running 24/7, and dedicated by an onprem Kepware system in the onsite facility. For those of you currently subscribing to the PxEventHub, and are interested in giving the data-streaming a shot, please use the following credential setting in your plugins.yml file.
+There are currently two MQTT topics which are running 24/7, dedicated by an onprem Kepware system in the onsite facility. For those of you currently subscribing to the PxEventHub, and are interested in giving the data-streaming a shot, please use the following credential setting in your plugins.yml file.
 
 ```yaml
 ec-plugin:
@@ -171,8 +171,9 @@ ec-plugin:
 
 ## Project Contributors/Sponsors List
 
- - Data-Ingestion team: *Kenneth Shum* <kenneth.shum@ge.com>, *Chris Rutherford* <Chris.Rutherford@ge.com> *Glorius Gaduang* <Glorius.Gaduang@ge.com>
- - Supply-Chain Leader: *Nate Arnold* <nathaniel.arnold@ge.com>
+ - GE Power Clearwater IT team: *Marek Noha* <Marek.Noha@ge.com>, *David M. Robinson* <David.M.Robinson@ge.com>, *Bob Criswell* <Bob.Criswell@ge.com>
+ - Data-Ingestion team: *Kenneth Shum* <kenneth.shum@ge.com>, *Chris Rutherford* <Chris.Rutherford@ge.com>, *Glorius Gaduang* <Glorius.Gaduang@ge.com>
+ - Supply-Chain Leader/Sponsor: *Nate Arnold* <nathaniel.arnold@ge.com>
  - Thread-Connect PxEventHub team: *Vandan Juvekar* <Vandan.Juvekar@ge.com>, *Abdullah Munaz* <abdullah.munaz@ge.com>, *Mahesh Venukadasula* <mahesh.venukadasula@ge.com>
  - Authour/Developer: *Chia Chang* <chia.chang@ge.com>
 
