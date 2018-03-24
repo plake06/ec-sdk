@@ -38,6 +38,13 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
  - Enterprise-Conn Service w/ Predix
  - Kepware and/or any brokers supporting MQTT protocols.
  - Predix EventHub
+### Plugin Compatibility Table
+
+ | Beta | Dist
+--- | --- | --- 
+Service | 1 | 2
+Agent | 1 | 2
+Kepware Plugin | 1 | 2
 
 ### Step one of tree- Setup the agent for the Ingress traffic
 Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
