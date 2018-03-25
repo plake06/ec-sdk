@@ -184,9 +184,9 @@ The simulator helps to randomly mock a series of machine data ingesting via seve
  
  ## Reference
  <sub>
- i. [Predix EventHub Service](https://docs.predix.io/en-US/content/service/data_management/event_hub/)
- ii. [Google Protobuf](https://github.com/google/protobuf)
- iii. [gRPC unified API framework](https://grpc.io/docs/guides/)
- iv. [MQTT Standard](http://mqtt.org/documentation)
- v. [OPC UA/DA](https://opcfoundation.org/)
+ i. [Predix EventHub Service](https://docs.predix.io/en-US/content/service/data_management/event_hub/)<br />
+ ii. [Google Protobuf](https://github.com/google/protobuf)<br />
+ iii. [gRPC unified API framework](https://grpc.io/docs/guides/)<br />
+ iv. [MQTT Standard](http://mqtt.org/documentation)<br />
+ v. [OPC UA/DA](https://opcfoundation.org/)<br />
 </sub>
