@@ -171,6 +171,9 @@ ec-plugin:
         pxy: 'http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80'
 ```
 
+## Machine Data Ingestion Simulator
+The simulator helps to randomly mock a series of machine data ingesting via several HTTP Publish endpoints which available from the Kepware channel settings. [The simulator is available in its opensource format](https://github.build.ge.com/212359746/project-kepware-device-simulator) for your further research of Kepware-relate topic.
+
 ## Project Contributors/Sponsors List
 
  - GE Power Clearwater IT team: *Marek Noha* <Marek.Noha@ge.com>, *David M. Robinson* <David.M.Robinson@ge.com>, *Bob Criswell* <Bob.Criswell@ge.com>
@@ -178,4 +181,12 @@ ec-plugin:
  - Supply-Chain Leader/Sponsor: *Nate Arnold* <nathaniel.arnold@ge.com>
  - Thread-Connect PxEventHub team: *Vandan Juvekar* <Vandan.Juvekar@ge.com>, *Abdullah Munaz* <abdullah.munaz@ge.com>, *Mahesh Venukadasula* <mahesh.venukadasula@ge.com>
  - Authour/Developer: *Chia Chang* <chia.chang@ge.com>
-
+ 
+ ## Reference
+ <sub>
+ i. [Predix EventHub Service](https://docs.predix.io/en-US/content/service/data_management/event_hub/)
+ ii. [Google Protobuf](https://github.com/google/protobuf)
+ iii. [gRPC unified API framework](https://grpc.io/docs/guides/)
+ iv. [MQTT Standard](http://mqtt.org/documentation)
+ v. [OPC UA/DA](https://opcfoundation.org/)
+</sub>
