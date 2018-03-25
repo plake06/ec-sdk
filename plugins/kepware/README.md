@@ -21,6 +21,8 @@ The Kepware plugin is designed to benefit Enterprise-Connect Predix subscribers.
 
 This usage guide assumes that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
+The GE Power Clearwater plant adopted the [Enterprise-Connect Four-way Bi-directional Virtual Connectivity](https://github.com/Enterprise-connect/ec-sdk/wiki/EC-Agent#usage-scenario-one--four-way-bi-directional-virtual-connectivity) topolygy for its Kepware plugin usage. This instuction manual will use the plant as an example to pivot towards its overall usage and deployment strategy.
+
 ### High-Level Network-Comp. Deployment Diagram
 Avaialbe also in [the original format](https://www.lucidchart.com/invitations/accept/38742699-09fe-4f68-ada9-dbb82fa1efd0)
 ![alt text](KepwareCBPlugin.png)
@@ -44,9 +46,9 @@ The plugin performs data-exchange operations via the Enterprise-Connect security
 
 --- | Beta | Dist
 --- | --- | --- 
-Service | v1051+ | 2
-Agent | v1225+ | 2
-Plugin | v1 | 2
+Service | v1051+ | TBD
+Agent | v1225+ | TBD
+Plugin | v1 | TBD
 
 ### Step one of tree- Setup the agent for the Ingress traffic
 Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
