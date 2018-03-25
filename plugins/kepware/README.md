@@ -180,7 +180,7 @@ The simulator helps to randomly mock a series of machine data ingesting via seve
  - Data-Ingestion team: Jack Porco, [*Kenneth Shum*](mailto:Kenneth.Shum@ge.com) (Leader), [*Chris Rutherford*](mailto:Chris.Rutherford@ge.com), [*Glorius Gaduang*](mailto:Glorius.Gaduang@ge.com)
  - Supply-Chain Leader/Sponsor: [*Nate Arnold*](mailto:Nathaniel.Arnold@ge.com)
  - Enterprise-Connect product Leader/Sponsor: [*Prasada Alokam*](mailto:prasada.alokam@ge.com)
- - Thread-Connect PxEventHub team: [*Vandan Juvekar*](mailto:Vandan.Juvekar@ge.com), [*Abdullah Munaz*](mailto:abdullah.munaz@ge.com), [*Mahesh Venukadasula*](mailto:mahesh.venukadasula@ge.com)
+ - Thread-Connect PxEventHub team: [*Vandan Juvekar*](mailto:Vandan.Juvekar@ge.com) (Leader), [*Abdullah Munaz*](mailto:abdullah.munaz@ge.com), [*Mahesh Venukadasula*](mailto:mahesh.venukadasula@ge.com)
  - Authour/Developer: [*Chia Chang*](mailto:Chia.Chang@ge.com)
  
  ## Reference
