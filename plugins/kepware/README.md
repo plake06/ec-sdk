@@ -177,10 +177,10 @@ The simulator helps to randomly mock a series of machine data ingesting via seve
 ## Project Contributors/Sponsors List
 
  - GE Power Clearwater IT team: *Marek Noha* <Marek.Noha@ge.com>, *David M. Robinson* <David.M.Robinson@ge.com>, *Bob Criswell* <Bob.Criswell@ge.com>
- - Data-Ingestion team: *Kenneth Shum* <kenneth.shum@ge.com>, *Chris Rutherford* <Chris.Rutherford@ge.com>, *Glorius Gaduang* <Glorius.Gaduang@ge.com>
- - Supply-Chain Leader/Sponsor: *Nate Arnold* <nathaniel.arnold@ge.com>
+ - Data-Ingestion team: *Kenneth Shum* <Kenneth.Shum@ge.com>, *Chris Rutherford* <Chris.Rutherford@ge.com>, *Glorius Gaduang* <Glorius.Gaduang@ge.com>
+ - Supply-Chain Leader/Sponsor: *Nate Arnold* <Nathaniel.Arnold@ge.com>
  - Thread-Connect PxEventHub team: *Vandan Juvekar* <Vandan.Juvekar@ge.com>, *Abdullah Munaz* <abdullah.munaz@ge.com>, *Mahesh Venukadasula* <mahesh.venukadasula@ge.com>
- - Authour/Developer: *Chia Chang* <chia.chang@ge.com>
+ - Authour/Developer: *Chia Chang* <Chia.Chang@ge.com>
  
  ## Reference
  <sub>
