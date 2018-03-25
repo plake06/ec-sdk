@@ -19,9 +19,9 @@
 ## Introduction
 The Kepware plugin is designed to benefit the Predix subscribers who are interested in the Kepware-->PxEventHub data-ingestion initiative. The plugin is capable of performing a realtime protocols-exchange for ingress protocols such as MQTT, WebSocket, HTTP, OPC UA/DA, TCP, and several high-performance egress frameworks, e.g. gRPC, supported by Predix EventHub service.
 
-This usage guide assumes that the user has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
+This usage guide assumes that the reader has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to a EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as for your beginning.
 
-The GE Power Clearwater plant adopted the [Enterprise-Connect Four-way Bi-directional Virtual Connectivity](https://github.com/Enterprise-connect/ec-sdk/wiki/EC-Agent#usage-scenario-one--four-way-bi-directional-virtual-connectivity) topolygy for its Kepware plugin usage. This instuction manual will use the plant as an example to pivot towards its overall usage and deployment strategy.
+The GE Power Clearwater plant adopted the [Enterprise-Connect Four-way Bi-directional Virtual Connectivity](https://github.com/Enterprise-connect/ec-sdk/wiki/EC-Agent#usage-scenario-one--four-way-bi-directional-virtual-connectivity) topolygy for its Kepware plugin usage. This instruction manual will use the plant as an example to pivot towards its overall usage and deployment strategy.
 
 ### High-Level Network-Comp. Deployment Diagram
 Avaialbe also in [the original format](https://www.lucidchart.com/invitations/accept/38742699-09fe-4f68-ada9-dbb82fa1efd0)
@@ -51,7 +51,7 @@ Agent | v1225+ | TBD
 Plugin | v1 | TBD
 
 ### Step one of tree- Setup the agent for the Ingress traffic
-Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
+Again assuming that you have the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to the EC service in Predix. If not, please [checkout our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as your first step.
 
 Please verify your network environment in order to decide whether the ```pxy``` (Proxy) makes sense for your agent deployment.
 
@@ -136,7 +136,7 @@ c:\> windows_var.exe -mod client \
 ```
 The ```-plg``` (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the previous step.
 
-At this stage you should be seeing your data streaming overhelmingly by subscribing to your Predix Eventhub instance. If not, you may join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or contact the one of the contributors from the list below for enabling. 
+At this stage you should be seeing your data streaming overwhelmingly by subscribing to your Predix Eventhub instance. If not, you may join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or contact the one of the contributors from the list below for enabling. 
 
 ## Live Demo/Data
 The GE Power Clearwater Plant team plays the key role to this successful Data-Ingestion initiative. Their contributions ranging from the network architecture, machine-configuration, to my first onsite tour in a GE Power facility one like this in Clearwater, FL.
@@ -178,5 +178,4 @@ ec-plugin:
  - Supply-Chain Leader/Sponsor: *Nate Arnold* <nathaniel.arnold@ge.com>
  - Thread-Connect PxEventHub team: *Vandan Juvekar* <Vandan.Juvekar@ge.com>, *Abdullah Munaz* <abdullah.munaz@ge.com>, *Mahesh Venukadasula* <mahesh.venukadasula@ge.com>
  - Authour/Developer: *Chia Chang* <chia.chang@ge.com>
-
 
