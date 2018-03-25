@@ -33,7 +33,7 @@ The plugin may operate as a standalone app, please reach out to the user group f
 The combination of EC Agent and the plugin is less than 20MB. With the minimum requirement of 128Mb in-memory, you may bridge the data from anywhere in the world into the designated environment.
 
 ### Enhanced Security
-The plugin performs data-exchange operations via the Enterprise-Connect security network which will maximise the security compatibility and deliver uncompromised performance.
+The plugin performs data-exchange operations via the Enterprise-Connect security network which will maximise the security compatibility and delivers an uncompromised quality in performance.
 
 ## Usage Manual
 ### Requirement
