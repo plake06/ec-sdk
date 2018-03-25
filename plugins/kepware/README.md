@@ -189,4 +189,5 @@ The simulator helps to randomly mock a series of machine data ingesting via seve
  iii. gRPC unified API framework (https://grpc.io/docs/guides/)<br />
  iv. MQTT standard (http://mqtt.org/documentation)<br />
  v. OPC UA/DA standards (https://opcfoundation.org/)<br />
+ v1. PTC Kepware software bundle (https://www.kepware.com/en-us/)
 </sub>
