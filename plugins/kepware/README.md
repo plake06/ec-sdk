@@ -111,7 +111,7 @@ There are several types of protocols supported by this plugin. Currently it's pr
 Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
 
 #### Logging
-It is important to know that the Kepware plugin support the file-level logging. Once your agent successfully launches the plugin as a sub-process, you will be able to see the history of logs produced inside of the sub-process. The log file (.connectivity.log) will be saved in the root directory of your agent/plugin. There is a **20Mb** limitation on the log file. Agent will reset all logging history once the 20Mb threshold is met.
+It is important to know that the Kepware plugin support the file-level logging. Once your agent successfully launches the plugin as a sub-process, you will be able to see the history of logs produced inside of the sub-process. The log file ```.connectivity.log``` will be saved in the root directory of your agent/plugin. There is a **20Mb** limitation on the log file. Agent will reset all logging history once the 20Mb threshold is met.
 
 You may tail the logs following the simple command below-
 ```bash
