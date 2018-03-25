@@ -176,11 +176,12 @@ The simulator helps to randomly mock a series of machine data ingesting via seve
 
 ## Project Contributors/Sponsors List
 
- - GE Power Clearwater IT team: [*Marek Noha*](mailto:Marek.Noha@ge.com), *David M. Robinson* <David.M.Robinson@ge.com>, *Bob Criswell* <Bob.Criswell@ge.com>
- - Data-Ingestion team: *Kenneth Shum* <Kenneth.Shum@ge.com>, *Chris Rutherford* <Chris.Rutherford@ge.com>, *Glorius Gaduang* <Glorius.Gaduang@ge.com>
- - Supply-Chain Leader/Sponsor: *Nate Arnold* <Nathaniel.Arnold@ge.com>
- - Thread-Connect PxEventHub team: *Vandan Juvekar* <Vandan.Juvekar@ge.com>, *Abdullah Munaz* <abdullah.munaz@ge.com>, *Mahesh Venukadasula* <mahesh.venukadasula@ge.com>
- - Authour/Developer: *Chia Chang* <Chia.Chang@ge.com>
+ - GE Power Clearwater IT team: [*Marek Noha*](mailto:Marek.Noha@ge.com), [*David M. Robinson*](mailto:David.M.Robinson@ge.com), [*Bob Criswell*](mailto:Bob.Criswell@ge.com)
+ - Data-Ingestion team: [*Kenneth Shum*](mailto:Kenneth.Shum@ge.com), [*Chris Rutherford*](mailto:Chris.Rutherford@ge.com, [*Glorius Gaduang*](mailto:Glorius.Gaduang@ge.com)
+ - Supply-Chain Leader/Sponsor: [*Nate Arnold*](mailto:Nathaniel.Arnold@ge.com)
+ - Enterprise-Connect product Leader/Sponsor: [*Prasada Alokam*](mailto:prasada.alokam@ge.com)
+ - Thread-Connect PxEventHub team: [*Vandan Juvekar*](mailto:Vandan.Juvekar@ge.com), [*Abdullah Munaz*](mailto:abdullah.munaz@ge.com), [*Mahesh Venukadasula*](mailto:mahesh.venukadasula@ge.com)
+ - Authour/Developer: [*Chia Chang*](mailto:Chia.Chang@ge.com)
  
  ## Reference
  <sub>
