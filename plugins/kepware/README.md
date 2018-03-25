@@ -136,7 +136,7 @@ c:\> windows_var.exe -mod client \
 ```
 The ```-plg``` (Plugin) flag here indicates that you would like the agent to launch the plugin app based on your plugins.yml settings from the previous step.
 
-At this stage you should be seeing your data streaming overwhelmingly by subscribing to your Predix Eventhub instance. If not, you may join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or contact the one of the contributors from the list below for enabling. 
+At this stage you should be seeing your data streaming overwhelmingly by subsuming to your Predix Eventhub instance. If not, you may join our [internal usergroup](https://www.flowdock.com/app/ge-developer-cloud/ec-usergroup) or contact the one of the contributors from the list below for enabling. 
 
 ## Live Demo/Data
 The GE Power Clearwater Plant team plays the key role to this successful Data-Ingestion initiative. Their contributions ranging from the network architecture, machine-configuration, to my first onsite tour in a GE Power facility one like this in Clearwater, FL.
