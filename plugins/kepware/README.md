@@ -21,7 +21,7 @@ The Kepware plugin is designed to benefit the Predix subscribers who are interes
 
 This usage guide assumes that the reader has the basic knowledge of Enterprise-Connect operation, and is currently a subscriber to a EC service in Predix. If not, please [checkut our usage doc](https://github.com/Enterprise-connect/ec-misc-docs) as for your beginning.
 
-The GE Power Clearwater plant adopted the [Enterprise-Connect Four-way Bi-directional Virtual Connectivity](https://github.com/Enterprise-connect/ec-sdk/wiki/EC-Agent#usage-scenario-one--four-way-bi-directional-virtual-connectivity) topolygy for its Kepware plugin usage. This instruction manual will use the plant as an example to pivot towards its overall usage and deployment strategy.
+The GE Power Clearwater plant adopted the [Enterprise-Connect Four-way Bi-directional Virtual Connectivity](https://github.com/Enterprise-connect/ec-sdk/wiki/EC-Agent#usage-scenario-one--four-way-bi-directional-virtual-connectivity) topolygy for its Kepware plugin usage. This instruction manual will use the plant as an example to pivot towards the plugin's overall usage and its deployment strategy.
 
 ### High-Level Network-Comp. Deployment Diagram
 Avaialbe also in [the original format](https://www.lucidchart.com/invitations/accept/38742699-09fe-4f68-ada9-dbb82fa1efd0)
