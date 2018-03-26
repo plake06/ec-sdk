@@ -115,7 +115,7 @@ It is important to know that the Kepware plugin support the file-level logging. 
 
 You may tail the logs following the simple command below-
 ```bash
-:<agent/plugin directory>$ tail -f .connectivity
+:<agent/plugin directory>$ tail -f .connectivity.log
 ```
 
 ### Step three of three - launch the agent and the plugin for the Egress traffic
