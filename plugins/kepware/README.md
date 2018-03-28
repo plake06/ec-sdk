@@ -108,7 +108,7 @@ The following plugins.yml file requires to be presented in the same directory of
 There are several types of protocols supported by this plugin. Currently it's pre-set to MQTT for the beta testing. Pay more attention on the ```tpc``` (Topic) configuration, this needs to match your topic which setup in the MQTT broker.
 
 #### Egress
-Currently we support gRPC and Predix UAA. You may need to set the pxy (proxy) if you're to deploy this plugin in a onprem/vpn network.
+Currently we support gRPC and Predix UAA. You may need to set the ```pxy``` (proxy) if you were to deploy this plugin in a onprem/vpn network.
 
 #### Logging
 It is important to know that the Kepware plugin support the file-level logging. Once your agent successfully launches the plugin as a sub-process, you will be able to see the history of logs produced inside of the sub-process. The log file ```.connectivity.log``` will be saved in the root directory of your agent/plugin. There is a **20Mb** limitation on the log file. Agent will reset all logging history once the 20Mb threshold is met.
