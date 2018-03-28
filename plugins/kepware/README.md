@@ -172,7 +172,7 @@ ec-plugin:
 ```
 
 ## Machine Data Ingestion Simulator
-The simulator helps to randomly mock a series of machine data ingesting via several HTTP Publish endpoints which available from the Kepware channel settings. [The simulator is available in its opensource format](https://github.build.ge.com/212359746/project-kepware-device-simulator) for your further research of Kepware-relate topic.
+The simulator helps to randomly mock a series of machine data ingesting via several HTTP Publish endpoints which are available in the Kepware channel settings. [The simulator is available in its opensource format](https://github.build.ge.com/212359746/project-kepware-device-simulator) for your further research of Kepware-relate topics.
 
 ## Project Contributors/Sponsors List
 
